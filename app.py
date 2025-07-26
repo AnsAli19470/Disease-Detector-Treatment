@@ -96,7 +96,7 @@ if st.button("🔍 Predict Disease"):
                     for item in ast.literal_eval(med[0]):
                         st.write(f"• {item}")
 
-                with st.expander("🏃 Workout Recommendations"):
+                with st.expander("🏃 Lifestyle Tips"):
                     for item in wrkout:
                         st.write(f"• {item}")
 
